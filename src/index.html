@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Cool Ass WebPage!</title>
+    <!-- StyleSheets-->
+    <link href="/src/css/reset.css" rel="stylesheet" />
+    <link href="/src/css/site.css" rel="stylesheet" />
+
+    <!-- JavaScript Files-->
+    <script defer src="/src/js/passwordMeter.js"></script>
+    <script defer src="/src/js/site.js"></script>
+
+</head>
+<html>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h2>Create Account</h2>
+            <hr>
+            <p>
+                Type in the password box to see the realtime password strength validation.
+            </p>
+            <form class="form-create-account stub">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" name="username" placeholder="E-Mail" />
+                    <label>Password</label>
+                    <div class="rel">
+                        <input class="password" type="password" name="password" placeholder="Password" />
+                        <!-- This is a must have guys and gals! -->
+                        <span class="password-strength">Weak</span>
+                    </div>
+                    <label>Verify Your Password</label>
+                    <div class="rel">
+                        <input type="password" name="verifypassword" placeholder="Verify Password" />
+                    </div>
+                    <div class="panel-footer">
+                        <div class="button-panel">
+                            <button class="btn-create-account">Create Account</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+
+</html>
